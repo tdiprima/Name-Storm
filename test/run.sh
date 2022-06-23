@@ -25,6 +25,10 @@ printf "${GRE}node 2${NC}\n"
 node getRandomName.js
 echo
 
+printf "${GRE}php${NC}\n"
+curl -k "https://frightanic.com/goodies_content/docker-names.php"
+echo
+
 printf "${RED}codename${NC}\n"
 cd "$DIR/codename"
 go run codename.go
