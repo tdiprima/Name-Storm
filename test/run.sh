@@ -15,13 +15,16 @@ DIR="$HOME/trabajo/polite-mystery-queen"
 #Cyan         0;36     Light Cyan    1;36
 #Light Gray   0;37     White         1;37
 
+#RED='\033[0;31m'
 YEL='\033[1;33m'
 GRE='\033[1;32m'
-RED='\033[0;31m'
+BLU='\033[0;34m'
+PUR='\033[0;35m'
+
 NC='\033[0m' # No Color
 #printf "I ${RED}love${NC} Stack Overflow\n"
 
-printf "${GRE}codename${NC}\n"
+printf "${YEL}codename${NC}\n"
 cd "$DIR/codename/cmd/codename"
 go run main.go
 echo
@@ -31,20 +34,19 @@ cd "$DIR/namegen/cmd/namegen"
 go run main.go
 echo
 
-printf "${GRE}node 1${NC}\n"
+printf "${BLU}docker-names${NC}\n"
 cd "$DIR/misc"
 node npm.js
 echo
 
-printf "${GRE}node 2${NC}\n"
+printf "${PUR}getRandomName${NC}\n"
 node getRandomName.js
+echo
+
+printf "${YEL}names-generator${NC}\n"
+node names-generator.js
 echo
 
 printf "${GRE}php${NC}\n"
 curl -k "https://frightanic.com/goodies_content/docker-names.php"
 echo
-
-#printf "${RED}namesgenerator${NC}\n"
-#cd "$DIR/namesgenerator"
-#go run names-generator.go
-#echo
