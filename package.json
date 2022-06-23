@@ -1,0 +1,26 @@
+{
+  "name": "polite-mystery-queen",
+  "version": "1.0.0",
+  "description": "random name generator",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdiprima/polite-mystery-queen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tdiprima/polite-mystery-queen/issues"
+  },
+  "homepage": "https://github.com/tdiprima/polite-mystery-queen#readme",
+  "devDependencies": {
+    "docker-names": "^1.2.1"
+  }
+}
