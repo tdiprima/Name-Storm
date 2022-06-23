@@ -21,7 +21,7 @@ RED='\033[0;31m'
 NC='\033[0m' # No Color
 #printf "I ${RED}love${NC} Stack Overflow\n"
 
-printf "${YEL}codename${NC}\n"
+printf "${GRE}codename${NC}\n"
 cd "$DIR/codename/cmd/codename"
 go run main.go
 echo
@@ -42,17 +42,9 @@ echo
 
 printf "${GRE}php${NC}\n"
 curl -k "https://frightanic.com/goodies_content/docker-names.php"
-<<<<<<< HEAD
-=======
 echo
 
-printf "${RED}codename${NC}\n"
-cd "$DIR/codename"
-go run codename.go
->>>>>>> 62c8334143a05124af58ce29b26d958f942b9fb8
-echo
-
-printf "${RED}namesgenerator${NC}\n"
-cd "$DIR/namesgenerator"
-go run names-generator.go
-echo
+#printf "${RED}namesgenerator${NC}\n"
+#cd "$DIR/namesgenerator"
+#go run names-generator.go
+#echo

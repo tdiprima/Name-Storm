@@ -37,14 +37,14 @@ func main() {
 This is how the output looks like (since it's random your will be different).
 
 ```txt
-coherent-jolt
-enhanced-smasher
+equal-cyclone
+assuring-tigress
+first-spectrum
 heroic-nightstar
-driven-talkback
-included-eradicator
-assuring-lord-tyger
-caring-batwoman
-solid-blackheart
+blessed-aquagirl
+immune-nitro
+fast-retro-girl
+beloved-fury
 ```
 
 You can request the addition of a token to create even more entropy ([Try it!](https://play.golang.org/p/5gZTKfLyIUN)):
