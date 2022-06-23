@@ -2,6 +2,8 @@
 
 [GitHub Repo](https://github.com/lucasepe/codename)
 
+[Generate random memorable "superhero like" codenames - just like Docker does with container names](https://www.reddit.com/r/golang/comments/n8b4v3/generate_random_memorable_superhero_like/)
+
 [![Go Report Card](https://goreportcard.com/badge/github.com/lucasepe/codename?style=flat-square)](https://goreportcard.com/report/github.com/lucasepe/codename) &nbsp;&nbsp;&nbsp;  [![PkgGoDev](https://pkg.go.dev/badge/github.com/lucasepe/codename)](https://pkg.go.dev/github.com/lucasepe/codename)
 
 > an [RFC1178](https://tools.ietf.org/html/rfc1178) implementation to generate pronounceable, sometimes even memorable, _"superhero like"_ codenames, consisting of a random combination of adjective and noun.
