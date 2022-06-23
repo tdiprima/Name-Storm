@@ -37,14 +37,14 @@ func main() {
 This is how the output looks like (since it's random your will be different).
 
 ```txt
-absolute-karatecha
-moving-colleen
-game-nova
-fine-madrox
-pro-penguin
-keen-morbius
-firm-iron
-refined-epoch
+coherent-jolt
+enhanced-smasher
+heroic-nightstar
+driven-talkback
+included-eradicator
+assuring-lord-tyger
+caring-batwoman
+solid-blackheart
 ```
 
 You can request the addition of a token to create even more entropy ([Try it!](https://play.golang.org/p/5gZTKfLyIUN)):
@@ -73,12 +73,12 @@ func main() {
 note the token (with the specified length) added at the end:
 
 ```txt
-hopeful-toad-men-133b
-blessed-man-thing-2bdc
-unique-starfox-4271
-full-butterfly-2470
-accepted-santa-claus-e24e
-merry-belphegor-65da
-willing-medusa-cdf4
-adapting-nightstar-f626
+immortal-butterfly-f065
+maximum-captain-planet-edb2
+relieved-polaris-aa58
+welcome-huntress-a2c1
+magnetic-kinetix-c8c3
+touching-air-walker-7cf5
+national-spy-6964
+lenient-retro-girl-09ff
 ```
