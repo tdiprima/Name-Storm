@@ -4,6 +4,8 @@ Random name generator!
 
 Run `test/run.sh`
 
+Update the path on line 3 before running.
+
 ---
 
 ### Acknowledgments
