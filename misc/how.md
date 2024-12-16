@@ -1,6 +1,5 @@
-Article: https://frightanic.com/computers/docker-default-container-names/
+[Docker Default Container Names](https://frightanic.com/computers/docker-default-container-names/)
 
-Service: https://frightanic.com/goodies_content/docker-names.php
+[Docker Names](https://frightanic.com/goodies_content/docker-names.php)
 
-Other: https://randomnames.herokuapp.com/
-
+[Random Names](https://randomnames.herokuapp.com/)
