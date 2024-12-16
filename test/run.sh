@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-DIR="$HOME/trabajo/polite-mystery-queen"
+# TODO:
+DIR="path/to/polite-mystery-queen"
 
 #https://misc.flogisoft.com/bash/tip_colors_and_formatting
 #echo -e "Default \e[102mLight green"
