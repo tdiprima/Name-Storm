@@ -1,29 +1,13 @@
 #!/usr/bin/env bash
-# TODO:
-DIR="path/to/polite-mystery-queen"
+# Determine the directory of this script
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
-#https://misc.flogisoft.com/bash/tip_colors_and_formatting
-#echo -e "Default \e[102mLight green"
-
-#https://stackoverflow.com/questions/5947742/how-to-change-the-output-color-of-echo-in-linux
-#https://en.wikipedia.org/wiki/ANSI_escape_code
-#Black        0;30     Dark Gray     1;30
-#Red          0;31     Light Red     1;31
-#Green        0;32     Light Green   1;32
-#Brown/Orange 0;33     Yellow        1;33
-#Blue         0;34     Light Blue    1;34
-#Purple       0;35     Light Purple  1;35
-#Cyan         0;36     Light Cyan    1;36
-#Light Gray   0;37     White         1;37
-
-#RED='\033[0;31m'
+# Colors for output
 YEL='\033[1;33m'
 GRE='\033[1;32m'
 BLU='\033[0;34m'
 PUR='\033[0;35m'
-
 NC='\033[0m' # No Color
-#printf "I ${RED}love${NC} Stack Overflow\n"
 
 printf "${YEL}codename${NC}\n"
 cd "$DIR/codename/cmd/codename"
@@ -37,7 +21,7 @@ echo
 
 printf "${BLU}docker-names${NC}\n"
 cd "$DIR/misc"
-node npm.js
+node dockerNamesGenerator.js
 echo
 
 printf "${PUR}getRandomName${NC}\n"

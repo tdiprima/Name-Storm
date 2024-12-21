@@ -1,5 +1,5 @@
 {
-  "name": "polite-mystery-queen",
+  "name": "Name-Storm",
   "version": "1.0.0",
   "description": "random name generator",
   "main": "index.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tdiprima/polite-mystery-queen.git"
+    "url": "git+https://github.com/tdiprima/Name-Storm.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tdiprima/polite-mystery-queen/issues"
+    "url": "https://github.com/tdiprima/Name-Storm/issues"
   },
-  "homepage": "https://github.com/tdiprima/polite-mystery-queen#readme",
+  "homepage": "https://github.com/tdiprima/Name-Storm#readme",
   "devDependencies": {
     "docker-names": "^1.2.1"
   }
